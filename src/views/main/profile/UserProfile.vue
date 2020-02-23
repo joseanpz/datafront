@@ -16,10 +16,10 @@
           <div class="title primary--text text--darken-2" v-else>-----</div>
         </div>
       </v-card-text>
-      <v-card-actions>
+      <!--<v-card-actions>
         <v-btn to="/main/profile/edit">Edit</v-btn>
         <v-btn to="/main/profile/password">Change password</v-btn>
-      </v-card-actions>
+      </v-card-actions>-->
     </v-card>
   </v-container>
 </template>

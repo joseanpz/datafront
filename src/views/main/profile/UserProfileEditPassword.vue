@@ -39,9 +39,9 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn @click="cancel">Cancel</v-btn>
-        <v-btn @click="reset">Reset</v-btn>
-        <v-btn @click="submit" :disabled="!valid">Save</v-btn>
+          <v-btn @click="reset">Reset</v-btn>
+          <v-btn @click="submit" :disabled="!valid">Save</v-btn>
+        <v-spacer></v-spacer>
       </v-card-actions>
     </v-card>
   </v-container>
