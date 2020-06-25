@@ -1,20 +1,23 @@
 {
-  "name": "frontend",
+  "name": "datadash",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --dest dist/dev",
+    "build_production": "vue-cli-service build --dest /home/josea/devops/ddops/html",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "axios": "^0.18.0",
+    "chart.js": "^2.9.3",
     "register-service-worker": "^1.0.0",
     "typesafe-vuex": "^3.1.1",
     "vee-validate": "^2.1.7",
     "vue": "^2.5.22",
+    "vue-chartjs": "^3.5.0",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.3.0",
     "vue-router": "^3.0.2",

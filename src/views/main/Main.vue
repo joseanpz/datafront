@@ -79,6 +79,7 @@
         </v-list>
       </v-layout>
     </v-navigation-drawer>
+
     <v-toolbar dark color="primary" app>
       <v-toolbar-side-icon @click.stop="switchShowDrawer"></v-toolbar-side-icon>
       <v-toolbar-title v-text="appName"></v-toolbar-title>
@@ -107,6 +108,7 @@
         </v-list>
       </v-menu>
     </v-toolbar>
+
     <v-content>
       <router-view></router-view>
     </v-content>

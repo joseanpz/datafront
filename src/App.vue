@@ -22,12 +22,22 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import NotificationsManager from '@/components/NotificationsManager.vue';
+import LineChart from '@/components/charts/LineChart.vue';
+import BarChart from '@/components/charts/BarChart.vue';
+import PieChart from '@/components/charts/PieChart.vue';
+import RadarChart from '@/components/charts/RadarChart.vue';
+import AreaChart from '@/components/charts/AreaChart.vue';
 import { readIsLoggedIn } from '@/store/main/getters';
 import { dispatchCheckLoggedIn } from '@/store/main/actions';
 
 @Component({
   components: {
     NotificationsManager,
+    LineChart,
+    BarChart,
+    PieChart,
+    RadarChart,
+    AreaChart
   },
 })
 export default class App extends Vue {
