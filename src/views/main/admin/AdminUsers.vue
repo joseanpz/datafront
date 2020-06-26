@@ -2,10 +2,10 @@
   <div>
     <v-toolbar light>
       <v-toolbar-title>
-        Manage Users
+        Administrar Usuarios
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn color="primary" to="/main/admin/users/create">Create User</v-btn>
+      <v-btn color="primary" to="/main/admin/users/create">Crear Usuario</v-btn>
     </v-toolbar>
     <v-data-table :headers="headers" :items="users">
       <template slot="items" slot-scope="props">

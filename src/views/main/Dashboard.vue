@@ -2,10 +2,10 @@
   <v-container fluid>
     <v-card class="ma-3 pa-3">
       <v-card-title primary-title>
-        <div class="headline primary--text">Dashboard</div>
+        <div class="headline primary--text">Indicadores Estratégicos</div>
       </v-card-title>
       <v-card-text>
-        <div class="headline font-weight-light ma-5">Welcome {{greetedUser}}</div>
+        <div class="headline font-weight-light ma-5">Bienvenido {{greetedUser}}</div>
 
       </v-card-text>
       <!--<v-card-actions>
